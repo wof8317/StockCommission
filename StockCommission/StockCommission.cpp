@@ -26,7 +26,7 @@ int main()
 	cout << "\nWhat percentage will your broker be paid? (3 or 4 ...) ";
 	cin >> brokerPercentage;
 	/*
-	  Had to do this nasty hack below where I appended a 1 after totalStockPrice, brokerCommission, and grossTotal to display
+	  Had to do this nasty hack below where I created new variables by appending a 1 after totalStockPrice, brokerCommission, and grossTotal to display
 	  the accurate calculations instead of repeating the initial calculations. I didn't like to do it, but it works.
 	*/
 	double totalStockPrice1 = stockShares * sharePrice;
